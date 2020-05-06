@@ -6,6 +6,8 @@ Simple beautiful grid-layout for your favourite photos with extraordinary progre
 Here is working demo https://marfoczk.github.io/hue-scroll-progress-bar/
 
 
-## Credits 
-# Lightbox
-# Unsplash
+
+## Credits
+
+* **LightBox** - [PurpleBooth](https://lokeshdhakar.com/projects/lightbox2/)
+* **Unsplash** - [Random Unsplash Photos](https://source.unsplash.com/)
