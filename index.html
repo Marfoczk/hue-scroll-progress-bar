@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HueBar</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Subrayada:wght@700&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Subrayada:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <div class="bar"></div>
@@ -15,70 +16,105 @@
         <h1>Grid album layout & hue progress bar</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni nemo labore aspernatur beatae animi, illum, veniam sunt tempora saepe ducimus eveniet tenetur inventore eius est. Temporibus magnam architecto dolores voluptate!</p>
         <div class="grid">
-            <div 
-            class="photo photo-tall"
-            style="background-image: url(https://source.unsplash.com/800x600/?nature);"
-            >
-            </div>
+            
+            <a class="photo-tall" href="https://source.unsplash.com/800x600/?nature" data-lightbox="image-1">
             <div 
             class="photo"
-            style="background-image: url(https://source.unsplash.com/800x600/?water);"
-            >
-            </div>
+            style="background-image: url(https://source.unsplash.com/800x600/?nature);"
+            ></div>
+            </a>
+            
+            <a href="https://source.unsplash.com/800x600/?water" data-lightbox="image-1">
+                <div 
+                class="photo"
+                style="background-image: url(https://source.unsplash.com/800x600/?water);"
+                ></div>
+            </a>
+            
+            <a class="photo-wide" href="https://source.unsplash.com/800x600/?car" data-lightbox="image-1">
             <div 
-            class="photo photo-wide"
+            class="photo"
             style="background-image: url(https://source.unsplash.com/800x600/?car);"
             >
             </div>
+            </a>
+
+            <a href="https://source.unsplash.com/800x600/?dog" data-lightbox="image-1">
             <div 
             class="photo"
             style="background-image: url(https://source.unsplash.com/800x600/?dog);"
             >
             </div>
+            </a>    
+            
+            <a href="https://source.unsplash.com/800x600/?cat" data-lightbox="image-1">
             <div 
             class="photo"
             style="background-image: url(https://source.unsplash.com/800x600/?cat);"
             >
             </div>
+            </a>
+
+            <a href="https://source.unsplash.com/800x600/?motorcycle" data-lightbox="image-1">
             <div 
             class="photo"
             style="background-image: url(https://source.unsplash.com/800x600/?motorcycle);"
             >
             </div>
+            </a>
+
+            <a class="photo-wide" href="https://source.unsplash.com/800x600/?rainbow" data-lightbox="image-1">
             <div 
-            class="photo photo-wide"
+            class="photo"
             style="background-image: url(https://source.unsplash.com/800x600/?rainbow);"
             >
             </div>
+            </a>
+
+            <a class="photo-tall" href="https://source.unsplash.com/800x600/?sunshine" data-lightbox="image-1">
             <div 
-            class="photo photo-tall"
+            class="photo"
             style="background-image: url(https://source.unsplash.com/800x600/?sunshine);"
             >
             </div>
+            </a>
+
+            <a href="https://source.unsplash.com/800x600/?mountains" data-lightbox="image-1">
             <div 
             class="photo"
             style="background-image: url(https://source.unsplash.com/800x600/?mountains);"
             >
             </div>
+            </a>
+
+            <a href="https://source.unsplash.com/800x600/?clouds" data-lightbox="image-1">
             <div 
             class="photo"
             style="background-image: url(https://source.unsplash.com/800x600/?clouds);"
             >
             </div>
+            </a>
+
+            <a href="https://source.unsplash.com/800x600/?colors" data-lightbox="image-1">
             <div 
             class="photo"
             style="background-image: url(https://source.unsplash.com/800x600/?colors);"
             >
             </div>
+            </a>
+
+            <a href="https://source.unsplash.com/800x600/?pinl" data-lightbox="image-1">
             <div 
             class="photo"
             style="background-image: url(https://source.unsplash.com/800x600/?pink);"
             >
             </div>
+            </a>
 
         </div>
     </main>
 
-    <script src="app.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
