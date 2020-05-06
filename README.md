@@ -4,3 +4,8 @@ Simple beautiful grid-layout for your favourite photos with extraordinary progre
 
 ## Demo
 Here is working demo https://marfoczk.github.io/hue-scroll-progress-bar/
+
+
+## Credits 
+# Lightbox
+# Unsplash
